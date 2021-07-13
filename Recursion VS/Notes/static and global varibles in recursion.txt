@@ -1,0 +1,3 @@
+they all have a single copy so it is not created in each stack frame.
+any operation performed on it the value keeps on being updated until the base condition is hit. 
+from then what ever was the value of that static variable it will be the same durin the returning phase.(since it is a single copy)

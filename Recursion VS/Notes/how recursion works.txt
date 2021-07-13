@@ -1,0 +1,4 @@
+A function calling itself inside the function defination.
+There must be a basecondition that will terminate recursion or else it goeson and program crashes.
+Recursion is kind of a loop
+Unlike loops recursion has ascending phase and descending phase.(statements to be executed before calling and after calling the recursive function)

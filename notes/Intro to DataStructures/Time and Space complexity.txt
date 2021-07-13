@@ -1,0 +1,3 @@
+Time Complexity:-
+Depends up on the procedure we are adapting.
+Ex:- O(n),O(n^2) etc...

@@ -1,0 +1,14 @@
+A data type is identified by know the below two
+1) Representation of data
+2) operation on data
+
+let assume int is of 2 bytes here.
+there fore it occupies 16bits of memory.
+In here one bit is reserved for sign bit and rest of the 15bits are allowed for storing the data.
+
+Ex:-
+how to represent List of elements
+what are needed to be stord in order to represent the list
+1) need space or memory for storing the elements
+2) need to have a capacity for a list.
+3) Size of a list

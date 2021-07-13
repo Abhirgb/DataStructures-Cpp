@@ -1,0 +1,16 @@
+we can create 2d array in 3 different ways
+1) declaring a 2D array
+EX:- int A[3][4];
+2) declaring an 1D array of integer pointers
+EX:- int *A[3];
+3) declaring a double pointer
+EX:- int **A;
+
+how are 2D arrays managed or handled by a compiler:-
+
+all elements of the array are stored in a linear continuous memory
+
+the mapping of 2D elements to linear continuos memory is done in 2 ways:-
+1) Row Major mapping
+-> elements are stored Row by Row
+2) Column Major Mapping

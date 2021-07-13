@@ -1,0 +1,3 @@
+the functions which perfom operations on the datamembers are called facilitators.
+the functions which changes or updates the values of the datamembers are called mutators(set or setter function etc...)
+the get or getter functions are called accessors.

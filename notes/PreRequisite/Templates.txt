@@ -1,0 +1,75 @@
+Template Classes:-
+
+C++ supports generic classes and functions.
+generic classes are - Template Classes
+generic functions are - Template functions
+
+Ex:-
+class Arithametic
+{
+private:
+	int a;
+	int b;
+public:
+	Arithametic(int a, int b);
+	int Add();
+	int sub();
+};
+
+Arithametic::Arithametic(int a, int b)
+{
+	this->a = a;
+	this->b = b;
+}
+int Arithametic::Add()
+{
+	int c;
+	c = a + b;
+	return c;
+}
+int Arithametic::Sub()
+{
+	int c;
+	c = a - b;
+	return c;
+}
+
+TEMPLATE:-
+
+template<class T>
+class Arithametic
+{
+private:
+	T a;
+	T b;
+public:
+	Arithametic(T a, T b);
+	T Add();
+	T sub();
+};
+
+template<class T>
+Arithametic<T>::Arithametic(T a, T b)
+{
+	this->a = a;
+	this->b = b;
+}
+
+template<class T>
+T Arithametic<T>::Add()
+{
+	T c;
+	c = a + b;
+	return c;
+}
+
+template<class T>
+T Arithametic<T>::Sub()
+{
+	T c;
+	c = a - b;
+	return c;
+}
+
+object creation:-  Arithametic<int> A
+Arithametic<float> B etc...

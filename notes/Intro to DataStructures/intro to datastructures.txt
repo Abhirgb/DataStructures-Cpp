@@ -1,0 +1,27 @@
+A program is a set of instructions that performs action or operations on data
+so when a program is dealing with the data, how will it organise the data in mainmemory is using DataStructure 
+The way the data is organised in the main memroy during execution time is DataStructure 
+
+list of data strutures:-
+
+	physical data structures:-
+	   the following define the way in which the data is arranged in the memory
+		array
+		matrices
+		linked lists
+
+	logical data structures:-
+	   the following define the way data is utilised or the way in which the data can be accessed or the way operations can be performed on the data in the memory
+	   	Linear:-
+		stack	- LIFO
+		queues  - FIFO
+
+		Non-Linear:-
+		trees
+		Graph
+		hashing
+
+Data Structure:-
+Arrangement of collection of data items so that they can be utilised efficiently or the operations on that data can be done efficiently.
+DataStructures are formed in the main memory during the execution time of a program.
+

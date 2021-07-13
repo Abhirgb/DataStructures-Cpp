@@ -1,0 +1,42 @@
+array is collection of similar data elements
+
+ex:- int A[5] if each integer is 2 bytes then the size of this array is 10 bytes.
+
+the program runs in the main memory.
+main memory consists of 
+1 - code section
+2 - stack
+3 - heap
+
+if an array is declared in the program it is created in the stack.
+
+
+STRUCTUREs:-
+collection of related data members under one name.
+the may or may not be of same type 
+
+size:-
+if assumed size of int is 2bytes
+struct Rect
+{
+   int iLength;  ------- 2 bytes
+   int iBreadth; ------- 2 bytes
+}
+so when a variable of above structure is created its size is of 4 bytes in memory
+so basically a size of a struct is sum of memory consumed by all its members 
+
+declaration - struct Rect r; //created in stack
+
+ex:- of structures
+
+complexnumbers - a+ib
+
+struct ComplexNumber
+{
+  float fReal;
+  float fImaginary;
+}
+
+char takes 1byte of memory
+
+so char name[25];  //occupies 25bytes of memory

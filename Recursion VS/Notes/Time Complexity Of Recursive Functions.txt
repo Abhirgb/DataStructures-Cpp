@@ -1,0 +1,1 @@
+one way to find time complexity is using recurrence relation.

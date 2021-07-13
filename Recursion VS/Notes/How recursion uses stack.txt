@@ -1,0 +1,5 @@
+Recursive functions utilizes the stack.
+for each call in the function an activation record is created in the stack.
+so in each stack frame(activation record) memory is created for the variable in the function.
+they consume a lot of memory.
+Recursive functions are memory consuming functions. 

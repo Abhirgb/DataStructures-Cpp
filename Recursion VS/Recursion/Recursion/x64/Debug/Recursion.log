@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\udemy courses\Udemy Data Strutures and algorithms\Recursion VS\Recursion\Recursion\main.cpp(175,9): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+D:\udemy courses\Udemy Data Strutures and algorithms\Recursion VS\Recursion\Recursion\main.cpp(226,41): warning C4244: 'argument': conversion from 'unsigned __int64' to 'int', possible loss of data
+  Recursion.vcxproj -> D:\udemy courses\Udemy Data Strutures and algorithms\Recursion VS\Recursion\x64\Debug\Recursion.exe

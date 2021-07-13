@@ -1,0 +1,36 @@
+pointer is an address variable, meant for storing address of data.
+used to access data indireclty
+
+why?????
+
+program can access the stack and code section in main memory directly.
+but not heap.(not accessed directly)(this memory is external to the program)
+
+so we can use pointer here to access this heap memory(above is one of the reason to use pointers)
+pointers can be used to access the resources tha are outside the program
+parameter passing
+
+int a; //2bytes   a at - 201,202(addresses) //data variable
+int *p; //2bytes  p at - 300,301(addresses) //Address Variable
+p = &a;
+
+accessing variable in heap memory:-
+
+to create memory in heap in C, "malloc" is used.(memory allocation - malloc())
+in C++, "new" key word is used
+
+if i need 5 integers memory in heap.(should be mentioned in terms of BYTES)
+using sizeof() operator lets complier decide the size of int.
+since every primitive datatype memory is compiler dependent 
+
+int *p;
+p = (int *)malloc(5*sizeof(int)); \\C style heap memory creation
+NOTE: malloc always returns a void* typecasting to appropriate data type should be taken care
+
+p = new int[5]; \\c++ style heap memory allocation
+
+size of a pointer of any type is same as the size of int(varies from compiler to compiler).
+
+REFERENCE:
+
+mostly useful in parameter passing

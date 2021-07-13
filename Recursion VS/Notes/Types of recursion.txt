@@ -1,0 +1,36 @@
+Tail Recursion
+Head Recursion
+Tree Recursion
+InDirect Recursion
+Nested Recursion
+
+Tail Recursion:-
+	if the recursive call is the last statement in a recursive function, then it is said to be a Tail Recursion.
+	Tail Recursion can easily be converted in the form of a loop.
+	Time consumed by Recursie function and the loop is the same.
+	But space(memory) utilized by Recursive function is more. since it utilises stack internally during the recursive calls.
+	using a Loop is more memory efficient than Tail Recursion. 
+
+Head Recursion:-
+	if the recursive call is the first statment in a recursive function, then it said to be a Head recursion.
+
+Tree Recursion:-
+	Linear Recursion:- if a recursive call is made only once in a recursive function then it said to be a linear recursion. 
+	Ex:- Head and Tail Recursions and recursive functions with a single recursive call.
+
+	Tree Recursion:- if a recursive function has more than one recursive call then it is said to be a Tree Recursion.
+	1)when a recursive call is made twice in a recursive function then the total no of calls made(activation records created) are sum of powers of 2 staring with 0.
+	  NOTE:- (Ex:- 2^0 + 2^1 + 2^2 + 2^3 + .....+ 2^n)[if the numbers of times the FIRST recursive call executed is 'n' times]
+	  It is an O(2^n) and space complexity is O(n), since n+1 calls are made and the same space is reutilised.
+
+	NOT SURE ABOUT POINT 2) SO PLEASE IGNORE
+	2)SIMILARLY if n Recursive calls are made in a Recursive Function then no of Activation Records(stack frames) created are 
+	  NOTE:- (n^0 + n^1 + n^2 + n^3 + ....+n^m) [if the numbers of times the FIRST recursive call executed is 'm' times]
+
+Indirect Recursion:-
+	In Indirect recursion there maybe more than one function and they are calling one another in a circular fashion.
+	(like a loop but with more than one function calling each other forming a closed loop resulting in a recursion)
+
+Nested Recursion:-
+	In a Nested Recursion the parameter passed to the recursive function is a recursive call;
+	Ex:- fun(fun(n-1));(a recursive call taking a recursive call as a parameter)

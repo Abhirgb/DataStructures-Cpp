@@ -1,0 +1,2 @@
+D:\udemy courses\Udemy Data Strutures and algorithms\Trees\BinaryTrees\x64\Debug\BinaryTrees.exe
+D:\udemy courses\Udemy Data Strutures and algorithms\Trees\BinaryTrees\x64\Debug\BinaryTrees.pdb

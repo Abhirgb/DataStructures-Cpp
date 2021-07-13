@@ -1,0 +1,44 @@
+parameters passed in the function call are "Actual Parameters"
+Ex:- add(x,y);
+
+parameters in the function declaration or defination are called "Formal Parameters"
+Ex:- int add(int a, int b);
+
+when ever there is a function call in the code its own action record (or) stack frame is created in the stack.
+same as the main when the program executes first an activation record of the main function is created
+
+when ever call by reference is used no new stack frame or activation record is created.it uses the stack frame where the function call is made.
+and code is executed there in the main memory.
+
+array can not be passed by values at all.they can only be passed by address
+
+void func(int A[], int n)
+{
+}
+
+or
+
+void func(int *A, int n)
+{
+}
+
+int main()
+{
+	int a[5] = {1,2,3,4,5};
+	func(a, 5)
+}
+
+Returning an array from a function
+
+int [] func(int n) \\int* func(int n)
+{
+	int *p;
+	p = (int *)malloc(n*size(int)); \\p = new int[n];
+	return p;
+}
+
+int main()
+{
+	int *A;
+	A = func(5);
+}

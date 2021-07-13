@@ -1,0 +1,31 @@
+PHYSICAL:-
+
+Array and LinkedLists.
+
+we can have more physical data structures by taking the combination of them.
+
+these decides or defines how the memory(where data can be stored) is organised or how the memory is allocated.
+
+Arrray - collection of contigeous memory locations.that are side by side
+	 might be created in stack as well as heap.
+	 size or length is static or fixed.
+LinkedList - is a dynamic data structure.
+	     is a collection of nodes containing the data and the address to the next node.
+	     always created in heap.
+	     size or length is dynamic
+physical data structures are meant for storing the data in them.
+
+LOGICAL:-
+
+linear:-
+	stack(works on the decipline LIFO(LAST In FIRST Out).)
+	queue(works on the decipline FIFO(FIRST In FIRST Out))
+non linear:-
+	tree(collection of nodes and the link between nodes.(Organised hierarchially))
+	graph
+
+hash table(linear or tabular)
+
+Logical data structures - How the data needs to be accessed.(like in which order or decipline to followed etc.. or how to utilise the data)
+
+The Logical data structures are implemented using the physical data structures.
