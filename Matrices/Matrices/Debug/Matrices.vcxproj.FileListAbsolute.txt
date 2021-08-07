@@ -1,2 +1,0 @@
-D:\udemy courses\Udemy Data Strutures and algorithms\Matrices\Matrices\Debug\Matrices.exe
-D:\udemy courses\Udemy Data Strutures and algorithms\Matrices\Matrices\Debug\Matrices.pdb

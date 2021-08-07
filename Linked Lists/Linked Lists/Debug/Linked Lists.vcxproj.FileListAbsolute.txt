@@ -1,2 +1,0 @@
-D:\udemy courses\Udemy Data Strutures and algorithms\Linked Lists\Linked Lists\Debug\Linked Lists.exe
-D:\udemy courses\Udemy Data Strutures and algorithms\Linked Lists\Linked Lists\Debug\Linked Lists.pdb

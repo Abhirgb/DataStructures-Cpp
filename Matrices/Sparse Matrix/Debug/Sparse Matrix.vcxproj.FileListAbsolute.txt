@@ -1,2 +1,0 @@
-D:\udemy courses\Udemy Data Strutures and algorithms\Matrices\Sparse Matrix\Debug\Sparse Matrix.exe
-D:\udemy courses\Udemy Data Strutures and algorithms\Matrices\Sparse Matrix\Debug\Sparse Matrix.pdb

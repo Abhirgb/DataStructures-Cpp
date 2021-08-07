@@ -1,2 +1,0 @@
-D:\udemy courses\Udemy Data Strutures and algorithms\Arrays\Array VS\Array ADT\Debug\Array ADT.exe
-D:\udemy courses\Udemy Data Strutures and algorithms\Arrays\Array VS\Array ADT\Debug\Array ADT.pdb
