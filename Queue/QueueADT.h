@@ -136,7 +136,6 @@ template <class T>
 class QueueADTUsingLL
 {
 	LinkedList<T> Queue;
-	int iSize;
 public:
 	void enqueue(T val);
 	void dequeue();
